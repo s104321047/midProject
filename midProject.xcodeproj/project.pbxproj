@@ -10,24 +10,48 @@
 		6244CF7C209B3DAB00CA9DF3 /* ClassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244CF7B209B3DAB00CA9DF3 /* ClassTableViewController.swift */; };
 		6244CF7E209B3E7000CA9DF3 /* ClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244CF7D209B3E7000CA9DF3 /* ClassTableViewCell.swift */; };
 		6244CF80209B80E700CA9DF3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244CF7F209B80E700CA9DF3 /* DetailViewController.swift */; };
+		6271DAC820E2B83000670563 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6271DAC720E2B83000670563 /* MapViewController.swift */; };
 		6274FB0D209B2ECB00BC173A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6274FB0C209B2ECB00BC173A /* AppDelegate.swift */; };
 		6274FB0F209B2ECB00BC173A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6274FB0E209B2ECB00BC173A /* ViewController.swift */; };
 		6274FB12209B2ECB00BC173A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6274FB10209B2ECB00BC173A /* Main.storyboard */; };
 		6274FB14209B2ECB00BC173A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6274FB13209B2ECB00BC173A /* Assets.xcassets */; };
 		6274FB17209B2ECB00BC173A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6274FB15209B2ECB00BC173A /* LaunchScreen.storyboard */; };
+		6281E51A20DDD067000C55AE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6281E51920DDD067000C55AE /* MapKit.framework */; };
+		6281E51C20DDD384000C55AE /* ClassDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6281E51B20DDD384000C55AE /* ClassDetailSeparatorCell.swift */; };
+		6281E51E20DDD497000C55AE /* ClassDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6281E51D20DDD497000C55AE /* ClassDetailMapCell.swift */; };
+		62DEF74C20BF8B460009025B /* plantSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DEF74B20BF8B460009025B /* plantSet.swift */; };
+		62DEF75A20C019860009025B /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 62DEF75920C019860009025B /* 1.json */; };
+		62DEF76520C02E550009025B /* ClassDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DEF76420C02E550009025B /* ClassDetailHeaderView.swift */; };
+		62DEF76720C06B900009025B /* ClassDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DEF76620C06B900009025B /* ClassDetailTextCell.swift */; };
+		62DEF76920C0F5A60009025B /* ClassDetailIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DEF76820C0F5A60009025B /* ClassDetailIconCell.swift */; };
+		62DEF77120C104520009025B /* setofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62DEF76E20C104520009025B /* setofont.ttf */; };
+		62DEF77220C104520009025B /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 62DEF76F20C104520009025B /* readme.txt */; };
+		62DEF77320C104520009025B /* setofont-ex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62DEF77020C104520009025B /* setofont-ex.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6244CF7B209B3DAB00CA9DF3 /* ClassTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTableViewController.swift; sourceTree = "<group>"; };
 		6244CF7D209B3E7000CA9DF3 /* ClassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTableViewCell.swift; sourceTree = "<group>"; };
 		6244CF7F209B80E700CA9DF3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6271DAC720E2B83000670563 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		6274FB09209B2ECB00BC173A /* midProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = midProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6274FB0C209B2ECB00BC173A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6274FB0E209B2ECB00BC173A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6274FB0E209B2ECB00BC173A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 2147486001; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6274FB11209B2ECB00BC173A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6274FB13209B2ECB00BC173A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6274FB16209B2ECB00BC173A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6274FB18209B2ECB00BC173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6281E51920DDD067000C55AE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6281E51B20DDD384000C55AE /* ClassDetailSeparatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailSeparatorCell.swift; sourceTree = "<group>"; };
+		6281E51D20DDD497000C55AE /* ClassDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailMapCell.swift; sourceTree = "<group>"; };
+		62DEF74B20BF8B460009025B /* plantSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantSet.swift; sourceTree = "<group>"; };
+		62DEF75920C019860009025B /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		62DEF76420C02E550009025B /* ClassDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailHeaderView.swift; sourceTree = "<group>"; };
+		62DEF76620C06B900009025B /* ClassDetailTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailTextCell.swift; sourceTree = "<group>"; };
+		62DEF76820C0F5A60009025B /* ClassDetailIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailIconCell.swift; sourceTree = "<group>"; };
+		62DEF76E20C104520009025B /* setofont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = setofont.ttf; sourceTree = "<group>"; };
+		62DEF76F20C104520009025B /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		62DEF77020C104520009025B /* setofont-ex.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "setofont-ex.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6281E51A20DDD067000C55AE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +71,7 @@
 			children = (
 				6274FB0B209B2ECB00BC173A /* midProject */,
 				6274FB0A209B2ECB00BC173A /* Products */,
+				6281E51820DDD067000C55AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +86,84 @@
 		6274FB0B209B2ECB00BC173A /* midProject */ = {
 			isa = PBXGroup;
 			children = (
+				62DEF76C20C104330009025B /* Resource */,
+				62DEF76220C025860009025B /* storybook */,
+				62DEF76120C0257B0009025B /* Model */,
+				62DEF76020C0254C0009025B /* controller */,
+				62DEF75F20C025280009025B /* view */,
+				62DEF75920C019860009025B /* 1.json */,
 				6274FB0C209B2ECB00BC173A /* AppDelegate.swift */,
+				6274FB13209B2ECB00BC173A /* Assets.xcassets */,
+				6274FB18209B2ECB00BC173A /* Info.plist */,
+			);
+			path = midProject;
+			sourceTree = "<group>";
+		};
+		6281E51820DDD067000C55AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6281E51920DDD067000C55AE /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62DEF75F20C025280009025B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6244CF7D209B3E7000CA9DF3 /* ClassTableViewCell.swift */,
+				62DEF76420C02E550009025B /* ClassDetailHeaderView.swift */,
+				62DEF76620C06B900009025B /* ClassDetailTextCell.swift */,
+				62DEF76820C0F5A60009025B /* ClassDetailIconCell.swift */,
+				6281E51B20DDD384000C55AE /* ClassDetailSeparatorCell.swift */,
+				6281E51D20DDD497000C55AE /* ClassDetailMapCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		62DEF76020C0254C0009025B /* controller */ = {
+			isa = PBXGroup;
+			children = (
 				6274FB0E209B2ECB00BC173A /* ViewController.swift */,
 				6244CF7B209B3DAB00CA9DF3 /* ClassTableViewController.swift */,
 				6244CF7F209B80E700CA9DF3 /* DetailViewController.swift */,
-				6274FB10209B2ECB00BC173A /* Main.storyboard */,
-				6274FB13209B2ECB00BC173A /* Assets.xcassets */,
-				6274FB15209B2ECB00BC173A /* LaunchScreen.storyboard */,
-				6274FB18209B2ECB00BC173A /* Info.plist */,
-				6244CF7D209B3E7000CA9DF3 /* ClassTableViewCell.swift */,
+				6271DAC720E2B83000670563 /* MapViewController.swift */,
 			);
-			path = midProject;
+			path = controller;
+			sourceTree = "<group>";
+		};
+		62DEF76120C0257B0009025B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62DEF74B20BF8B460009025B /* plantSet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62DEF76220C025860009025B /* storybook */ = {
+			isa = PBXGroup;
+			children = (
+				6274FB10209B2ECB00BC173A /* Main.storyboard */,
+				6274FB15209B2ECB00BC173A /* LaunchScreen.storyboard */,
+			);
+			path = storybook;
+			sourceTree = "<group>";
+		};
+		62DEF76C20C104330009025B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				62DEF76D20C104430009025B /* Fonts */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		62DEF76D20C104430009025B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				62DEF76F20C104520009025B /* readme.txt */,
+				62DEF77020C104520009025B /* setofont-ex.ttf */,
+				62DEF76E20C104520009025B /* setofont.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +199,11 @@
 					6274FB08209B2ECB00BC173A = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -132,9 +230,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DEF77120C104520009025B /* setofont.ttf in Resources */,
 				6274FB17209B2ECB00BC173A /* LaunchScreen.storyboard in Resources */,
 				6274FB14209B2ECB00BC173A /* Assets.xcassets in Resources */,
+				62DEF77220C104520009025B /* readme.txt in Resources */,
+				62DEF75A20C019860009025B /* 1.json in Resources */,
 				6274FB12209B2ECB00BC173A /* Main.storyboard in Resources */,
+				62DEF77320C104520009025B /* setofont-ex.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,10 +248,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6244CF7C209B3DAB00CA9DF3 /* ClassTableViewController.swift in Sources */,
+				6281E51C20DDD384000C55AE /* ClassDetailSeparatorCell.swift in Sources */,
+				62DEF76920C0F5A60009025B /* ClassDetailIconCell.swift in Sources */,
 				6244CF7E209B3E7000CA9DF3 /* ClassTableViewCell.swift in Sources */,
 				6244CF80209B80E700CA9DF3 /* DetailViewController.swift in Sources */,
+				62DEF76520C02E550009025B /* ClassDetailHeaderView.swift in Sources */,
 				6274FB0F209B2ECB00BC173A /* ViewController.swift in Sources */,
+				6271DAC820E2B83000670563 /* MapViewController.swift in Sources */,
+				62DEF76720C06B900009025B /* ClassDetailTextCell.swift in Sources */,
 				6274FB0D209B2ECB00BC173A /* AppDelegate.swift in Sources */,
+				62DEF74C20BF8B460009025B /* plantSet.swift in Sources */,
+				6281E51E20DDD497000C55AE /* ClassDetailMapCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
